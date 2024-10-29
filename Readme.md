@@ -1,7 +1,13 @@
-# Steps Involved:
+# Restuarant Scraping :
 --------------
 ## Modules used : Requests, Os, BeautifulSoup and Json
 
+### PREREQUISITES NEEDED:
+- Installation of different modules using pip:  
+`pip install requests / pip3 install requests`<br>
+`pip install BeautifulSoup / pip3 install BeautifulSoap`
+
+### STEPS INVOLVED:
 ### User Input: 
 - The script prompts the user to input the name of the *city* { For eg.: Goa, Bengaluru}
 
@@ -16,4 +22,3 @@
 ### Storing in JSON: 
 - The extracted restaurant details are stored in a Python dictionary and then saved into a JSON file. 
 - The restaurant names are used as keys, and details such as ratings and reviews are stored as values.
-
